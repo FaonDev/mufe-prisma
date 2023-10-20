@@ -1,6 +1,17 @@
 import { prisma } from "@/lib/prisma";
 import { mufe } from "@/lib/mufe";
 
+// await prisma.user.create({
+//   data: {
+//     name: "John",
+//     posts: {
+//       create: {
+//         content: "Hello, World!",
+//       },
+//     },
+//   },
+// });
+
 // Simulating concurrent requests
 const requests = 500;
 
