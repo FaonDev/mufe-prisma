@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@prisma/client": "^5.4.2",
-    "mufe": "^0.1.6"
+    "mufe": "^0.1.8"
   },
   "devDependencies": {
     "@types/node": "^20.8.7",
