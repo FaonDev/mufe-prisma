@@ -15,8 +15,7 @@ import { useMufe } from "mufe";
 const requests = 500;
 
 for (let i = 0; i < requests; i++) {
-  const firstUser = await useMufe({
-    id: "first_user",
+  const firstUser = await useMufe("first_user", {
     revalidate: 15, // 15 seconds
     update: () => prisma.user.findFirst(),
   });
